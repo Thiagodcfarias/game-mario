@@ -22,7 +22,7 @@ const loop = setInterval(() => {
         marioCss.style.animation = 'none'
         marioCss.style.bottom = `${marioPosition}px`
         marioCss.src = "./css/images/game-over.png"
-        marioCss.style.width = '75px'
+        marioCss.style.width = '12%'
         marioCss.style.marginLeft = '50px'
 
         clearInterval(loop)
